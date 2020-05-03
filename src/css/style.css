@@ -109,7 +109,7 @@ section.hero p {
   top: 8px;
   left: 20px;
   display: inline-block;
-  content: url(/src/img/feature-menu.svg);
+  content: url(../img/feature-menu.svg);
 }
 
 .inicio-screen {
@@ -205,7 +205,7 @@ section.features p {
 }
 
 .features-button {
-  content: url(/src/img/feature-menu.svg);
+  content: url(../img/feature-menu.svg);
   height: 18px;
   width: 18px;
   position: relative;
