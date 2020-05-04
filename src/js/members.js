@@ -67,7 +67,9 @@ const member = [
         role: "Back-end",
         social: {
             github: "beescuit",
-            instagram: "ryan_mdc1"
+            twitter: "beescoitu",
+
+            
         }
     },
 
@@ -84,7 +86,7 @@ const member = [
         role: "Back-end",
         social: {
             github: "Sidemaze",
-            instagram: "beescoitu"
+            instagram: "ryan_mdc1"
         }
     },
 ];
