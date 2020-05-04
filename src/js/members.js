@@ -1,22 +1,92 @@
 const cardsElement = document.getElementById("members");
 const member = [
     {
+        name: "Álvaro Filho",
+        role: "Back-end",
+        social: {
+            github: "alvarofilho",
+            twitter: "alvarofilh0",
+            // linkedin: "",
+            // instagram: ""
+        }
+    },
+
+    {
+        name: "Everthon Silva",
+        role: "Front-end",
+        social: {
+            github: "Everthon-Silva",
+            //twitter: ,
+            // linkedin: "",
+            // instagram: ""
+        }
+    },
+
+    {
+        name: "Gabe",
+        role: "Back-end",
+        social: {
+            github: "ImGabe",
+            twitter: "ImGabeDev",
+            // linkedin: "",
+            // instagram: ""
+        }
+    },
+    
+    {
+        name: "João Lucas",
+        role: "Back-end",
+        social: {
+            github: "joaolucasete",
+            // linkedin: "",
+            // instagram: ""
+        }
+    },
+
+    {
         name: "Mariana Morais",
-        role: "Administrador",
+        role: "Front-end",
         social: {
             github: "marianamorais",
+            twitter: "marimorais0",
+            instagram: "marimorais.exe"
             // linkedin: "",
-            // twitter: "",
             // instagram: ""
         }
     },
     {
         name: "ratsclub",
-        role: "Criador de Conteúdo",
+        role: "Back-end",
         social: {
             github: "ratsclub"
         }
-    }
+    },
+
+    {
+        name: "Rafael",
+        role: "Back-end",
+        social: {
+            github: "beescuit",
+            instagram: "ryan_mdc1"
+        }
+    },
+
+    {
+        name: "Renato",
+        role: "Back-end",
+        social: {
+            github: "RenatoWw"
+        }
+    },
+
+    {
+        name: "Ryan",
+        role: "Back-end",
+        social: {
+            github: "Sidemaze",
+            instagram: "beescoitu"
+        }
+    },
 ];
 
 const links = {

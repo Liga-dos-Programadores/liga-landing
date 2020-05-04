@@ -386,13 +386,13 @@ section.team h2 {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 90px 1fr 90px 1fr 90px 1fr;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-column-gap: 90px;
-  grid-row-gap: 90px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 255px;
+  grid-row-gap: 60px;
   justify-items: stretch;
   -webkit-box-align: stretch;
-          -ms-flex-align: stretch;
-      align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
 }
 
 .card {
@@ -428,12 +428,10 @@ section.team h2 {
 }
 
 .card-image>img {
-  width: 80%;
-  border-radius: 5px;
+  width: 60%;
+  border-radius: 100%;
   text-align: center;
   overflow: hidden;
-  -webkit-clip-path: polygon(51% 0, 100% 27%, 100% 78%, 50% 100%, 0 76%, 0 26%);
-          clip-path: polygon(51% 0, 100% 27%, 100% 78%, 50% 100%, 0 76%, 0 26%);
 }
 
 .title-card {
@@ -456,7 +454,7 @@ section.team h2 {
   display: flex;
   -webkit-box-pack: justify;
           -ms-flex-pack: justify;
-      justify-content: space-between;
+      justify-content: space-evenly;
   -webkit-box-align: center;
           -ms-flex-align: center;
       align-items: center;
