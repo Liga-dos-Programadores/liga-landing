@@ -111,6 +111,10 @@
     margin-bottom: 21%;
   }
 
+  section.projects h2 {
+    text-align: center;
+  }
+
   header nav ul li a {
     font-size: 1.8rem;
     padding: 1.4rem;
